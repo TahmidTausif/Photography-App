@@ -1,0 +1,358 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+
+/************************************************************
+*
+*
+   main css start
+*
+*
+*************************************************************/
+
+
+
+
+.header-section{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+.header-section .bg-light{
+	background: transparent !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+   color: #fff;
+   font-size: 14px;
+   font-weight: 600;
+   margin: 0px 0px 0px 70px;
+}
+.header-section .navbar-light .navbar-nav img{
+	margin: 0px 0px 0px 70px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section .navbar-light .navbar-nav .nav-link:focus{
+   color: #8c8e90;	
+}
+.banner{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+.banner .banner-inner{
+	width: 100%;
+	padding: 40px 0px;
+   right: 0px;
+   text-align: center;
+   margin: 380px 0px 0px 10px;
+
+}
+.banner .banner-inner h2{
+   font-size: 30px;
+   line-height: 40px;
+   color: #fff;
+   font-weight: 800;
+   text-transform: uppercase;
+   letter-spacing: 1px;   
+}
+.banner .banner-inner p{
+   font-size: 14px;
+   line-height: 24px;
+   color: #fff;
+   font-weight: 300;
+}
+
+
+.banner .banner-inner .btn-light{
+   padding: 15px 50px;
+   color: #000;
+   border: 1px solid #fff;
+   border-radius: 25px;
+   font-size: 14px;
+   font-weight: 700;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+   margin: 40px 0px 0px 0px;
+
+
+}
+.banner .banner-inner .btn-light:hover, .banner .banner-inner .btn-light:focus{
+	background: transparent;
+   color: #fff;
+   border: 1px solid #fff;
+}
+
+.about-us{
+	width: 100%;
+}
+
+.about-us-inner{
+	width: 100%;
+	padding: 60px 0px 80px 0px;
+	margin: 45px 0px 0px;
+}
+.about-us-inner h2{
+   font-size: 48px;
+   line-height: 58px;
+   color: #16a085;
+   font-weight: 500;
+   margin: 0px 0px 15px; 
+}
+.about-us-inner p{
+
+   font-size: 16px;
+   line-height: 30px;
+   color: #000;
+   font-weight: 400;
+}
+.about-us-inner .btn-dark{
+	background: #16a085;
+   padding: 15px 50px;
+   color: #fff;
+   border: 1px solid #16a085;
+   font-size: 18px;
+   border-radius: 0px;
+   font-weight: 700;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+   margin: 40px 0px 60px 0px;	
+}
+.about-us-inner .btn-dark:hover, .about-us-inner .btn-dark:focus{
+	background: transparent;
+   color: #16a085;
+   border: 1px solid #16a085;
+}
+.about-us img{
+	margin: 40px 0px 0px 200px;
+
+}
+
+
+.overview{
+	width: 100%;
+	background: #eee;
+}
+.overview-inner{
+	width: 100%;
+	padding: 60px 0px 80px 0px;
+	margin: 45px 0px 0px;
+}
+.overview-inner h2{
+   font-size: 48px;
+   line-height: 58px;
+   color: #16a085;
+   font-weight: 500;
+   margin: 0px 0px 15px; 
+}
+.overview-inner p{
+
+   font-size: 16px;
+   line-height: 30px;
+   color: #000;
+   font-weight: 400;
+}
+.overview-inner .btn-dark{
+	background: #16a085;
+   padding: 15px 50px;
+   color: #fff;
+   border: 1px solid #16a085;
+   font-size: 18px;
+   border-radius: 0px;
+   font-weight: 700;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+   margin: 40px 0px 60px 0px;	
+}
+.overview-inner .btn-dark:hover, .overview-inner .btn-dark:focus{
+	background: transparent;
+   color: #16a085;
+   border: 1px solid #16a085;
+}
+.overview img{
+	margin: 40px 0px 0px 100px;
+
+}
+
+
+
+.gallery{
+	width: 100%;
+	padding: 80px 40px 40px 40px;
+}
+.gallery .title{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+}
+.gallery .title h3{
+   font-size: 40px;
+   line-height: 50px;
+   color: #16a085;
+   font-weight: 600;
+   margin: 20px 0px 15px 0px; 	
+}
+
+.gallery .title p{
+   font-size: 14px;
+   line-height: 24px;
+   color: #000;
+   font-weight: 400;
+   margin: 0px 30px 15px 30px;
+   padding: 0px 0px 40px 0px;
+  }
+.gallery .wrapper{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-row-gap: 2em;
+	text-align: center;
+}
+.subscribe{
+	width: 100%;
+	  background-image: url('../images/banner2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0px 200px 0px;
+}
+
+.subscribe h1{
+	margin: 0px 0px 40px 0px;
+	color: #fff;
+}
+
+.subscribe .mail{
+    background: #fff;
+    border: 1px solid #8c8e90;
+    padding: 20px 30px;
+    border-radius: 50px;
+    width: 400px;
+    vertical-align: middle;
+}
+.subscribe .butn {
+    background: #16a085;
+    border: 1px solid #16a085;
+    border-radius: 50px;
+    padding: 20px 30px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0px 0px 0px 8px;
+    vertical-align: middle;
+}
+.download{
+	width: 100%;
+	padding: 40px 0px 40px 0px;
+}
+.download .download-inner{
+	width: 100%;
+	text-align: center;
+}
+.download .download-inner h1{
+	color: #16a085;
+   font-weight: 600;
+   margin: 20px 0px 15px 0px;
+}
+.download .download-inner p{
+   font-size: 14px;
+   line-height: 24px;
+   color: #000;
+   font-weight: 400;
+   margin: 0px 30px 15px 30px;
+}
+.download .download-inner .mdi-36px {
+     font-size: 39px;
+     margin-right: 10px
+ }
+
+.download .download-inner .container {
+     margin-top: 50px
+ }
+
+.download .download-inner .container .btn{
+	margin: 0px 20px 0px 0px;
+}
+
+
+
+.footer-section{
+	width: 100%;
+   background: #eee;
+	padding: 60px 0px 40px 0px;
+}
+.footer-section .icons{
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+}
+.footer-section .icons ul{
+   list-style: none;
+   padding: 0px 0px 0px 10px;
+
+}
+
+.footer-section .icons ul li{
+   display: inline;
+
+}
+.footer-section .icons .fab{
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #fff;
+  color: #000;
+  margin: 0px 15px 0px 0px;
+  transition: transform .2s;
+}
+.footer-section .icons .fa-facebook-f{
+  background: #3B5998;
+  color: white;
+}
+.footer-section .icons .fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+.footer-section .icons .fa-instagram{
+   color: #fff;
+	background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);;
+}
+.footer-section .icons .fab:hover, .footer-section .icons .fab:focus {
+  transform: scale(1.2); 	
+}
+.footer-section p{
+
+   font-size: 14px;
+   line-height: 24px;
+   color: #8c8e90;
+   font-weight: 400;	
+   margin: 25px 0px 0px 0px;
+}
+
+.footer-section p img{
+	margin: 0px 10px 0px 0px;
+}
+
+
+.footer-section .yebo{
+	margin: 5px 0px 0px 0px;
+	text-align: center;
+}
+
+
+
+
